@@ -1,0 +1,107 @@
+body{
+
+    margin: 0px;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    
+    font-family: 'Fraunces', serif;
+    font-family: 'Barlow', sans-serif;
+    
+    
+}
+
+.first-box {
+
+    
+    background-image: url("images/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 10px 50px 850px 30px;
+    height: 15px;
+}
+
+
+.first-box .main-heading{
+
+font-size: 3em;
+font-family: 'Fraunces', serif;
+letter-spacing: 6px;
+word-spacing: 10px;
+margin-top: 120px;
+
+}
+.first-box img{
+margin-top: 90px;
+}
+
+
+
+
+.logo{
+    
+    font-weight: 900;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul{
+
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   width: 29rem;
+    font-weight: 600;
+    font-size: 15px;
+   
+  
+  
+
+}
+
+ul .contact{
+
+ font-family: 'Fraunces', serif;
+
+ text-transform: uppercase;
+
+}
+
+li{
+    align-items: baseline;
+    padding: 12px;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    
+}
+
+  .contact {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    color:  hsl(212, 27%, 19%);
+    padding: 12px;
+    font-weight: 900;
+    
+}
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
