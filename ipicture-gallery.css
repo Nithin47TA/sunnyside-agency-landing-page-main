@@ -1,0 +1,38 @@
+.pictures {
+  display: flex;
+  height: 555px;
+}
+.pictures >*{
+flex-basis: 100%;
+width: 25%;
+}
+
+.corn {
+  background-image: url(images/desktop/image-gallery-cone.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.milk {
+  background-image: url(images/desktop/image-gallery-milkbottles.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.orange {
+  background-image: url(images/desktop/image-gallery-orange.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sugar {
+  background-image: url(images/desktop/image-gallery-sugarcubes.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
