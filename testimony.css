@@ -1,43 +1,37 @@
-.testimony{
-
-
-text-align: center;
-margin: 20%;
+.testimony {
+  text-align: center;
+  margin: 10%;
 }
 
-.testimony h3{
-font-family: "Fraunces", serif;
-text-transform: uppercase;
-letter-spacing: 5px;
-color: hsl(210, 4%, 67%);
-margin-bottom: 100px;
+.testimony h3 {
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: hsl(210, 4%, 67%);
+  margin-bottom: 100px;
 }
-.individual-flex{
-    display: flex;
+.individual-flex {
+  display: flex;
 }
-.individual-flex >*{
-    flex-basis: 100%;
+.individual-flex > * {
+  flex-basis: 100%;
 }
 .individuals {
-/* padding: 0px 200px; */
-margin:  0px 18px 0px 10px;
-
+  margin: 0px 10px 0px 10px;
+  line-height: 30px;
 }
-.individuals img{
-
-border-radius: 50%;
-width: 80px;
-margin-bottom: 25px;
-
+.individuals img {
+  border-radius: 50%;
+  width: 60px;
+  margin-bottom: 25px;
 }
 
-.individuals .name{
-    margin-top: 50px;
-    font-family: "Fraunces", serif;
-    font-weight: 900;
-
+.individuals .name {
+  margin-top: 50px;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
 }
-.individuals .proffesion{
-    margin-top: 10px;
-font-size: smaller;
+.individuals .proffesion {
+  margin-top: 10px;
+  font-size: smaller;
 }
