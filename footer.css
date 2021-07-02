@@ -1,18 +1,51 @@
 footer {
-  background-color: hsl(168, 34%, 41%);
+
+  background-color: hsl(167, 44%, 70%);
+
   text-align: center;
   padding: 40px;
+ 
 }
 
 footer h1 {
   margin: 0px;
   padding: 0px;
   font-weight: 900;
-  color: hsl(0, 0%, 100%);
+  color: hsl(168, 34%, 41%);
+  margin-bottom: 25px;
 }
 
 footer ul {
-  justify-content: space-between;
+  padding-left: 0px;
   align-items: center;
+  width: 300px;
   margin: auto;
+}
+
+footer ul>*{
+  flex-basis: 100%;
+}
+
+footer a{
+  color: hsl(168, 34%, 41%);
+}
+footer a:hover{
+  color: hsl(0, 0%, 100%);
+}
+
+.sociallink{
+  margin-top: 70px;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.sociallink svg {
+  margin: 0px 10px;
+  fill: white;
+}
+
+.sociallink svg path:hover{
+  fill: hsl(0, 0%, 100%);
+  cursor: pointer;
 }
